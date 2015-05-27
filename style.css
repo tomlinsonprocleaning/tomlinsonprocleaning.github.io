@@ -43,8 +43,6 @@ body, html {
     background: rgb(227,229,238);
     background: rgba(227,229,238,.7); 
     width: 50%;
-    max-width: 475px;
-    min-width: 325px;
     padding: 5px;
     height: 60%;
     margin-top: 150px;
@@ -62,7 +60,6 @@ body, html {
     box-shadow: none;
     margin: 5px;
     padding: 5px;
-    min-width: 430px;
 
 }
 
@@ -181,8 +178,6 @@ body, html {
 .footer .col-md-4 {
 
     padding: 0px;
-    min-width: 400px;
-    max-width: 600px;
 }
 
 .footer .info-pane {
