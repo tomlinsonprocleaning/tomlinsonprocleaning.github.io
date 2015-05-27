@@ -1,6 +1,7 @@
 body, html {
 
     font-family: roboto_slabregular;
+    background-color: #2B3856;
 
 }
 
@@ -18,7 +19,7 @@ body, html {
     padding-left: 30px;
     margin: 0px;
     font-size: 3em;
-    color: white;
+    color: #393232;
 
 }
 
@@ -32,15 +33,15 @@ body, html {
 
     position: relative;
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid #393232;
     border-radius: 2px;
 
 }
 
 .dark-background {
-
-    background: rgb(0,0,0); /*Fallback support*/
-    background: rgba(0,0,0,.6);
+ 
+    background: rgb(227,229,238);
+    background: rgba(227,229,238,.7); 
     width: 50%;
     max-width: 475px;
     min-width: 325px;
@@ -54,9 +55,8 @@ body, html {
 
 .navbar {
 
-    background: rgb(0,0,0);
-    background: rgba(0,0,0,.6);
-    font-color: white;
+    background: rgb(227,229,238);
+    background: rgba(227,229,238,.85);
     border: none;
     border-radius: 2px;
     box-shadow: none;
@@ -74,20 +74,45 @@ body, html {
 
 .navbar .nav > li > a {
 
-    color: white;
+    color: #393232;
 
 }
 
-.navbar .navbar-header > .navbar-brand {
+.navbar h1 {
+    
+    margin: 0px;
+    color: #2B3856;
+    text-align: center;
+    font-size:  3.5em;
+    line-height: 35%;
+    margin-top: 12px;
+    margin-bottom: 5px;
 
-    color: white;
+}
+
+.navbar a:hover {
+
+    text-decoration: none;
+
+}
+
+.navbar a {
+
+    outline: 0;
+
+}
+
+.navbar h1 > small {
+    
+    color: #40BDFF;
+    font-size: 30%;
 
 }
 
 .active {
 
     background: rgb(0,0,0);
-    background: rgba(0,0,0,0);
+    background: rgba(0,0,0,.3);
 
 }
 
@@ -100,9 +125,19 @@ body, html {
 
 }
 
+.navbar .navbar-right {
+
+    margin-top:5px;
+
+}
+
 .wrapper{
 
     background: url("img/room.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+        -o-background-size: cover;
+          background-size: cover;
     padding: 10px;
 
 }
@@ -127,7 +162,7 @@ body, html {
 
 .foot-wrap {
 
-    width: 80%;
+    width: 90%;
     margin: auto;
 
 }
@@ -136,26 +171,46 @@ body, html {
 
     margin-top: 10px;
     height: 100%;
+    margin: auto;
     border-radius: 2px;
     padding: 0px;
+    text-align: center;
     
 }
 
-.footer .col-sm-4 {
+.footer .col-md-4 {
 
     padding: 0px;
-    max-width: 400px;
-
+    min-width: 400px;
+    max-width: 600px;
 }
 
 .footer .info-pane {
 
-    background: rgb(0,0,0); /*Fallback support*/
-    background: rgba(0,0,0,.6);
-    margin: 10px;
+    background: rgb(255,255,255); /*Fallback support*/
+    background: rgba(255,255,255,.6);
+    margin: 60px;
     padding: 5px;
-    color: white;
-    font-size: 1.5em;
+    color: #393232;
+    font-size: 1.25em;
+    text-align: center;
+   
+}
+
+.col-centered {
+
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.footer .inner-border {
+
+    border-color: black;
+    padding: 10px;
 
 }
 
@@ -165,8 +220,6 @@ body, html {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 250px;
-    background: url(img/water2.png);
-    background-repeat: no-repeat;
     border-top: 2px solid #fafafa;
 
 }
