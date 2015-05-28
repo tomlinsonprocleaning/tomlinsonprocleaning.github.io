@@ -12,6 +12,13 @@ body, html {
 
 }
 
+#body {
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
 .col-pad {
 
     height: 150px;
@@ -131,7 +138,8 @@ body, html {
       -moz-background-size: cover;
         -o-background-size: cover;
           background-size: cover;
-    padding: 10px;
+    padding: 0px;
+    padding-top: 10px;
 
 }
 
