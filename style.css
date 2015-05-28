@@ -5,22 +5,24 @@ body, html {
 
 }
 
-.jumbotron {
+#body .dark-background {
 
-    margin: 0px;
-    background: rgb(100,54,54);
-    background: rgba(0,0,0,0);
+    max-width: 470px;
+    min-width: 340px;
 
 }
 
-.jumbotron p {
+.col-pad {
 
-    padding: 20px;
-    padding-left: 30px;
-    margin: 0px;
+    height: 150px;
+
+}
+
+#banner {
+
     font-size: 3em;
     color: #393232;
-
+    padding: 20px;
 }
 
 #content .col-sm-4 {
@@ -42,11 +44,7 @@ body, html {
  
     background: rgb(227,229,238);
     background: rgba(227,229,238,.7); 
-    width: 50%;
     padding: 5px;
-    height: 60%;
-    margin-top: 150px;
-    margin-bottom: 150px;
     border-radius: 3px;
 
 }
@@ -116,8 +114,6 @@ body, html {
 .navbar > .container {
 
     padding: 1%;
-    padding-left: 10%;
-    padding-right: 10%;
     width: 100%;
 
 }
@@ -157,12 +153,6 @@ body, html {
 
 }
 
-.foot-wrap {
-
-    width: 90%;
-    margin: auto;
-
-}
 
 .footer .row {
 
@@ -184,7 +174,7 @@ body, html {
 
     background: rgb(255,255,255); /*Fallback support*/
     background: rgba(255,255,255,.6);
-    margin: 60px;
+    margin: 30px;
     padding: 5px;
     color: #393232;
     font-size: 1.25em;
