@@ -2,6 +2,8 @@ body, html {
 
     font-family: roboto_slabregular;
     background-color: #2B3856;
+    padding: 0px;
+    margin: 0px;
 
 }
 
@@ -16,6 +18,12 @@ body, html {
 
     padding-left: 5px;
     padding-right: 5px;
+
+}
+
+#body .row {
+
+    margin: 0px;
 
 }
 
@@ -196,8 +204,6 @@ body, html {
     float:none;
     /* reset the text-align */
     text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
 }
 
 .footer .inner-border {
