@@ -27,11 +27,19 @@ body, html {
 
 }
 
+#body .row .col-xs-12 {
+
+    padding: 0px;
+
+}
+
 .col-pad {
 
     height: 150px;
+    padding: 0px;
 
 }
+
 
 #banner {
 
