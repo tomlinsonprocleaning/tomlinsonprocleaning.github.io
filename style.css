@@ -306,28 +306,38 @@ body, html {
     margin-top: 20px;
     border-top: 5px solid #d3d3d3;
     border-bottom: 5px solid #d3d3d3;
+    padding: 0px;
+    margin-bottom: 0px;
 
 }
 
 #about-img .about-top {
 
+    border-top: 3px solid grey;
     width: 100%;
 
 }
 
 #about-img .about-tagline {
 
-    padding: 200px 15%;
+    padding: 15%;
     text-align: center;
     font-family: roboto_slabthin;
     font-size: 2.5em;
     color: white;
+    margin-top: 0px;
+
 }
 
 .about-row {
 
     text-align: center;
     color: #d3d3d3;
+    margin: 0px;
+    border-top: 3px solid grey;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
 }
 
 .about-col-mid {
