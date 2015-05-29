@@ -292,3 +292,59 @@ body, html {
     height: 50px;
 
 }
+
+#about-img {
+
+    background: url("img/window.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+        -o-background-size: cover;
+          background-size: cover;
+
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 5px solid #d3d3d3;
+    border-bottom: 5px solid #d3d3d3;
+
+}
+
+#about-img .about-top {
+
+    width: 100%;
+
+}
+
+#about-img .about-tagline {
+
+    padding: 200px 15%;
+    text-align: center;
+    font-family: roboto_slabthin;
+    font-size: 2.5em;
+    color: white;
+}
+
+.about-row {
+
+    text-align: center;
+    color: #d3d3d3;
+}
+
+.about-col-mid {
+
+    width: 10%;
+
+}
+
+
+.about-col-side {
+
+    width: 20%;
+
+}
+
+.about-row h3 {
+
+    font-family: roboto_slabbold;
+
+}
