@@ -180,6 +180,12 @@ body, html {
 
 }
 
+.navbar .row {
+
+    margin-right: 0px;
+
+}
+
 .navbar > .container {
 
     padding: 1%;
@@ -388,3 +394,26 @@ body, html {
 
 }
 
+.service-col {
+
+    text-align: center;
+    color: #d3d3d3;
+
+}
+
+.service-col .col-md-2 {
+
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+.service-col img {
+
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #d3d3d3;
+
+}
