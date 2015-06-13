@@ -117,7 +117,7 @@ body, html {
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
-    width: 90%;
+    width: 100%;
 
 }
 
@@ -163,7 +163,7 @@ body, html {
     width: 295px;
     color: #2B3856;
     text-align: center;
-    font-size:  3.5em;
+    font-size:  3em;
     line-height: 35%;
     margin: auto;
     margin-top: 12px;
