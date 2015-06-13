@@ -97,6 +97,8 @@ body, html {
 
 .navbar .container {
 
+    margin: auto;
+    padding: 0px;
     width: 90%;
 
 }
@@ -114,12 +116,27 @@ body, html {
     float: none;
     padding-top: 20px;
     padding-bottom: 10px;
+    text-align: center;
+    width: 70%;
+
+}
+
+#menu-items .col-xs-3:last-child{
+
+    padding-left: 20px;
+    color: red;
+
+}
+
+#menu-items .col-xs-3 {
+
+    padding: 0px;
 
 }
 
 .nav-link {
 
-    padding: 20px;
+    padding: 0px;
     white-space: nowrap;
     color: #393232;
     -webkit-transition: all 1s ease-out;
@@ -143,11 +160,12 @@ body, html {
 
 .navbar h1 {
     
-    margin: 0px;
+    width: 295px;
     color: #2B3856;
     text-align: center;
     font-size:  3.5em;
     line-height: 35%;
+    margin: auto;
     margin-top: 12px;
     margin-bottom: 5px;
 
@@ -170,6 +188,7 @@ body, html {
     color: #40BDFF;
     font-size: 30%;
     text-align: center;
+    padding-left: 2px;
 
 }
 
@@ -230,7 +249,7 @@ body, html {
 }
 
 
-.footer .row {
+#bottom .row {
 
     margin-top: 10px;
     height: 100%;
@@ -241,12 +260,12 @@ body, html {
     
 }
 
-.footer .col-md-4 {
+#bottom .col-md-4 {
 
     padding: 0px;
 }
 
-.footer .info-pane {
+#bottom .info-pane {
 
     background: rgb(255,255,255); /*Fallback support*/
     background: rgba(255,255,255,.6);
@@ -266,18 +285,18 @@ body, html {
     text-align:left;
 }
 
-.footer .inner-border {
+#bottom .inner-border {
 
     border-color: black;
     padding: 10px;
 
 }
 
-.footer {
+#bottom {
 
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
+    /* Set the fixed height of the#bottom here */
     height: 250px;
     border-top: 2px solid #fafafa;
 
@@ -401,10 +420,28 @@ body, html {
 
 }
 
-.service-col .col-md-2 {
+.service-col ul{
+
+    margin: auto;
+    width: 350px;
+    text-align: left;
+    list-style-type: none;
+
+}
+
+.service-col li {
 
     margin-top: 20px;
-    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.45em;
+    padding-left: .6em;
+    text-indent: -.6em;
+
+}
+
+.service-col .col-sm-6 {
+
+    height: 250px;   
 
 }
 
@@ -417,3 +454,4 @@ body, html {
     border: 2px solid #d3d3d3;
 
 }
+
