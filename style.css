@@ -258,7 +258,6 @@ body, html {
 
 }
 
-
 #bottom .row {
 
     margin-top: 10px;
@@ -286,10 +285,9 @@ body, html {
     background: rgb(255,255,255); /*Fallback support*/
     background: rgba(255,255,255,.6);
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 100px;
     padding: 5px;
-    max-width: 320px;
+    max-width: 400px;
     color: #393232;
     font-size: 1.25em;
     text-align: center;
@@ -319,10 +317,8 @@ body, html {
 
 #bottom {
 
-    bottom: 0;
     width: 100%;
     /* Set the fixed height of the#bottom here */
-    height: 250px;
     border-top: 2px solid #fafafa;
 
 }
@@ -374,7 +370,7 @@ body, html {
 
     height: auto;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 150px;
     border-top: 5px solid #d3d3d3;
     border-bottom: 5px solid #d3d3d3;
     padding: 0px;
