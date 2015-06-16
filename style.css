@@ -171,8 +171,8 @@ body, html {
 }
 
 .navbar h1 {
-
-    width: 255px;
+    
+    width: 260px;
     color: #2B3856;
     font-size:  3em;
     line-height: 35%;
@@ -197,7 +197,7 @@ body, html {
 .navbar h1 > small {
 
     color: #40BDFF;
-    font-size: 30%;
+    font-size: 28%;
     text-align: center;
     padding-left: 2px;
 
@@ -259,7 +259,6 @@ body, html {
 
 }
 
-
 #bottom .row {
 
     margin: auto;
@@ -319,7 +318,6 @@ body, html {
 
 #bottom {
 
-    bottom: 0;
     width: 100%;
     border-top: 2px solid #fafafa;
 
