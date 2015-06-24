@@ -366,7 +366,7 @@ body, html {
 
 #about-img {
 
-    background: url("img/condo.jpg") no-repeat center center;
+    background: url("img/servicemain.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -478,7 +478,8 @@ body, html {
 
     border: 2px solid #353839;
     margin-top: 50px;
-    height: 200px;
+    height: 300px;
+    max-width: 300px;
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
