@@ -518,16 +518,9 @@ h2 {
 
     border: 2px solid #353839;
     margin-top: 50px;
+    width: 100%;
     max-width: 300px;
-    max-height: 300px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-
+    height: 300px;
 }
 
 .service-wrap {
@@ -535,8 +528,7 @@ h2 {
     background: rgb(255,255,255); /*Fallback support*/
     background: rgba(255,255,255,.6);
     border-radius:2px;
-    padding: 20px;
-    margin: auto;
+    padding-bottom: 50px;
 
 }
 
@@ -584,3 +576,4 @@ h2 {
     padding-bottom: 200px;
     position: relative;
 }
+
